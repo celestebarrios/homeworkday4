@@ -1,0 +1,74 @@
+body{
+    font-family: arial;
+    /* margin: 8px
+     */
+} 
+/* .offset-md-4
+{
+    display: block;
+    position: relative;
+   
+    margin-left:17%;
+    margin-bottom: 20%;
+    width:65%;
+    
+}  */
+h1{ 
+    color: blue;
+    text-align: center; 
+    font-size: large; }
+h2 { 
+    color: green;
+    text-align: center; 
+    font-size: large; }
+ 
+     
+body div img{
+    text-align: center;
+    /*display: inline in the grid 
+    because all in line elements 
+    want to be next to eachother*/
+    display: block;/*block level element 
+    and change with the margin because an 
+    image may be distorted since its an 
+    in-line element*/
+    margin: 0 auto;/* 0 is the top and bottom and 
+    auto is left and right sides*/
+}
+.center{
+
+    display: block;
+    position: relative;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%;
+}
+h3,h4{
+    text-align: center; 
+    font-size: large; 
+    translate: ;}
+/* .offset-md-6 
+{
+    display: block;
+} */
+
+p2.summary{
+    font-size: smaller;
+    text-align: left;
+    margin-right: 0 auto;
+
+}
+p5{
+    color: purple;
+}
+.summary{ 
+    font-size: smaller; 
+    text-align: left; }
+footer{ 
+    font-size:small; 
+}
+
+
+footer{
+    font-size:small;
+}
